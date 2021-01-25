@@ -1,8 +1,4 @@
-# AWS Fundamentals: Assignment 1
-
 ## Overview
-
-This test requires you to configure a very simple web app.
 
 The web app consists of two components:
 
@@ -11,13 +7,6 @@ The web app consists of two components:
 
 You need to upload the static webpage somewhere web accessible. There's a clearly marked value in the source of the webpage that needs to be changed to the endpoint of the callback. Once this is done, your static page will call the callback, and you'll see the output.
 
-## Downloading the assets
-
-You can download the assets you'll need from here: <http://a.co/28wsX8D>
-
-## Deliverables
-
-Once you have configured everything, please send the **URL of your hosted webpage** to <aws-apac-sa-candidate@amazon.com>.
 
 ## Detail
 
