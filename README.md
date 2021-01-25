@@ -27,6 +27,3 @@ Everything should be uploaded to the Sydney AWS region if possible.
 
 You should follow best practices for secure and performant web pages: use of HTTPS, a CDN, and so on.
 
-## Screenshot of webpage with embedded callback
-
-![example embedded callback](example-embedded-callback.png)
