@@ -25,6 +25,27 @@ The callback function is some Python code. It can't be executed in the browser, 
 
 Everything should be uploaded to the Sydney AWS region if possible.
 
-You should follow best practices for secure and performant web pages: use of HTTPS, a CDN, and so on.
+You should follow best practices for secure and performant web pages: use of HTTPS, a CDN, Load balancers, WAF, and so on.
 
-## Architectural options - AWS Elastic Beanstalk
+## Architectural options # 1 - AWS Elastic Beanstalk
+
+The Beanstalk takes care of setting up majority of the components on AWS.
+
+In this architecture, the Python callback code will be installed on EC2 servers fronted by load balancers. 
+
+
+
+## Architectural options # 2 - Lambda function
+
+Using an API gateway, the Python callback code will be set up as a Lambda function (serverless). 
+
+
+
+## Architectural options # 3 - A container on K8 (EKs)
+
+The Python callback code will be set up as a container managed on EKS for better scalability and interopibility. 
+
+
+## Architectural options # 4 - Serverless Fargate on K8 (EKs)
+
+The Python callback code will be set up as a function on fargate on EKS for better scalability, interoperability and ease of maintenance and management.
