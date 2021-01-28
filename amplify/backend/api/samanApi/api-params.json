@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/callback",
+            "lambdaFunction": "callbackcode",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/callback"
+        }
+    ],
+    "resourceName": "samanApi",
+    "apiName": "samanApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "callbackcode"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-awssaman-staging-110617-authRole",
+        "unAuthRoleName": "amplify-awssaman-staging-110617-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "callbackcode",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

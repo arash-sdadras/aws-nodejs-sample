@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "aws-saman",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "/Users/arash/Workspace/Dev_Projects/aws-SSAMan-Assignments/tech/candidatepage/aws-nodejs-sample/client",
+      "DistributionDir": "/Users/arash/Workspace/Dev_Projects/aws-SSAMan-Assignments/tech/candidatepage/aws-nodejs-sample/build",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": ""
+    }
+  }
+}
